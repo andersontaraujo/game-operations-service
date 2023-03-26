@@ -1,1 +1,1 @@
-# game-ops
+# game-operations-service
