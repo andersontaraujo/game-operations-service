@@ -68,7 +68,7 @@ public class RatingService {
         Double score = calculateAverageGameScore(gameId);
         return GameRatingResponseDTO.builder()
                 .gameId(gameId)
-                .score(score)
+                .averageScore(score)
                 .build();
     }
 
